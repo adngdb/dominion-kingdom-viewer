@@ -1,0 +1,46 @@
+body {
+    background-color: #eee;
+    font-size: 16px;
+    text-align: center;
+}
+h1 {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 3.0em;
+}
+p {
+    font-style: italic;
+}
+header {
+    margin-bottom: 20px;
+}
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    height: 20px;
+    padding: 4px 8px;
+    width: 400px;
+}
+button {
+    cursor: pointer;
+    font-weight: bold;
+    height: 35px;
+    padding: 6px 12px;
+}
+button:hover {
+    color: #0066CC;
+}
+form a {
+    font-style: italic;
+    font-size: 0.9em;
+    margin-left: 5px;
+
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}

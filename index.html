@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="http://lqbs.fr/css/reset.css" rel="stylesheet" media="all">
+        <link href="style.css" rel="stylesheet" media="all">
+        <title>Dominion Kingdom Viewer</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Dominion Kingdom Viewer</h1>
+            <p>Type in a list of Dominion cards, and you will get the images of those cards. </p>
+        </header>
+
+        <form method="get" action="">
+            <input type="text" id="cardslist" name="cards" placeholder="Type a list of cards...">
+            <button id="generate" action="submit">Generate</button>
+            <a href="?cards=bridge, king's court, chapel, witch, wharf, stash">need an example?</a>
+        </form>
+
+        <div id="images"></div>
+
+        <footer>
+            a service by <a href="http://adrian.gaudebert.fr">Adrian Gaudebert</a> - credits to <a href="https://github.com/mressler/RanDominion">mressler for his cards list</a> and to <a href="http://dominion.diehrstraits.com/">http://dominion.diehrstraits.com</a> for the images
+        </footer>
+
+        <script src="jquery.min.js"></script>
+        <script src="dominionCards.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
