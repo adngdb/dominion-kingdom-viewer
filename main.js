@@ -1,6 +1,6 @@
 $(function () {
     var imagesDisplay = $('#images');
-    var imageUrlBase = 'http://dominion.diehrstraits.com/scans/';
+    var imageUrlBase = 'http://dominion.lqbs.fr/cards/';
 
     function displayCardsList(cardsList) {
         // clean images list
